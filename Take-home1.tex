@@ -3,9 +3,10 @@
 \usepackage{blindtext}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{listings}
-\usepackage{color} 
+\usepackage{color}
 
 
 \title{Take-Home Eksamen DM500 Efterår 2020}
@@ -14,7 +15,7 @@
 \\
 h8 - studiegruppe 3:
 \\
-Andreas Rosenstjerne(andrh20)
+Andreas Rosenstjerne Hansen(andrh20)
 \\
 Frederik Mortensen Dam(Frdam20)
 \\
@@ -31,12 +32,12 @@ Nanta Veliovits (navel16)
 \pagebreak
 
 \section{Opgave 1(Reeksamen februar 2015)}
-I det følgende lader vi $U = \{ 1,2,3,...,15 \} $ være universet (universal set). 
+I det følgende lader vi $U = \{ 1,2,3,...,15 \} $ være universet (universal set).
 \\
 \newline Betragt de to mængder
 \newline
 \begin{math}
-A = \{ 2n|n \} \in S og B \{ 3n + 2|n \} \in S 
+A = \{ 2n|n \} \in S og B \{ 3n + 2|n \} \in S
 \end{math}
 \newline hvor $S$= \{1,2,3,4\}
 \\
@@ -65,18 +66,18 @@ a)\; Hvilke af følgende udsagn er sande?
 
 \begin{align*}
 \forall x \in N:\exists\:y \in N: x< y \;\;\;Det\;er\;sandt.
-\end{align*} 
+\end{align*}
 \begin{align*}
 \forall x \in N:\exists\;!\:y \in N: x< y \;\;\;Det\;er\;ikke\;sandt.
-\end{align*} 
+\end{align*}
 \begin{align*}
 \exists y \in N:\:\forall x \in N: x< y \;\;\;Det\;er\;sandt.
-\end{align*} 
+\end{align*}
 
 b)\;Angiv negeringen af udsagn 1. fra spørgsmål a).\\\newline Negerings-operatoren (¬) må ikke indgå i dit udsagn.
  \begin{align*}
-\exists\: x \in N:\forall\:y \in N: x > y 
-\end{align*} 
+\exists\: x \in N:\forall\:y \in N: x > y
+\end{align*}
 
 \section{Opgave 3 (Reeksamen februar 2015)}
 Lad R, S og T være binære relationer på mængden \{1, 2, 3, 4\}.
@@ -96,7 +97,7 @@ Svar: Vi tilføjer de par, der mangler for, at relationen lever op til den trans
 c) Lad T = \{(1,1), (1,3), (2,2), (2,4), (3,1), (3,3), (4,2), (4,4)\}. Bemærk at T er en ækvivalensrelation. Angiv T's ækvivalensklasser.
 \\
 \newline
-Svar: 
+Svar:
 \newline
 $ [1] \cup [3] = \{ 1,3 \} $
 \\
@@ -140,5 +141,51 @@ S =
 0 & 1 & 0 & 0
 \end{bmatrix}
 \end{math}
-\end{document}
 
+\section{Opgave 1 (Reeksamen Januar 2012)}
+Betragt funktionerne $f$ : $\mathbb{R}$ → $\mathbb{R}$ og $g$ : $\mathbb{R}$ → $\mathbb{R}$ defineret ved
+\\
+\begin{align*}
+f(x) = x +2 + x + 1
+\\
+g(x) = 2x - 2
+\end{align*}
+a) Er $f$ en bijektion?
+\\
+\\
+Svar: Nej, da vi ved $x = 1$ og $x = -2$ får resultatet $3$
+\\
+\\
+\newline
+b) Har $f$ en invers funktion?
+\\
+\\
+Svar: Nej, da det ikke er en bijektion, da den skal opfylde $f(x) = y$ og $f^-1(y) = x$
+\\
+\\
+c) Angiv $f + g$.
+\\
+\\
+Svar: Vi sætter  $f(x) + g(x)$ sammen
+\\
+\begin{align*}
+f(x) + g(x) = x^2 + x +1 + 2x - 2
+\\
+\Updownarrow
+\\
+2x^3 + 3x
+\end{align*}
+a) Angiv $g \circ f$
+\\
+\\
+Svar:
+Vi sætter $f(x)$ ind i $g(x)$, så vi får
+\begin{align*}
+g(f(x)) = 2(x^2 + x + 1)-2
+\\
+\Updownarrow
+\\
+2x^2 + 2x
+\end{align*}
+
+\end{document}
